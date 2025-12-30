@@ -1,4 +1,8 @@
 {
   "cssTheme": "Minimal",
-  "theme": "system"
+  "theme": "system",
+  "enabledCssSnippets": [
+    "line-height",
+    "mermaid-center"
+  ]
 }

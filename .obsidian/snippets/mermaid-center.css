@@ -1,0 +1,27 @@
+/* 让 Mermaid 图表在预览模式下居中 */
+.markdown-preview-view .mermaid {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* （可选）让编辑器中的 Mermaid 预览也居中（Obsidian 1.0+ 支持） */
+.cm-mermaid {
+  display: block;
+  text-align: center !important;
+  margin: 1em auto !important;
+}
+
+/* 缩小 Mermaid 图表到 80% */
+.mermaid {
+  zoom: 0.9 !important;       /* 简单缩放（Chrome/Edge 支持） */
+  transform: scale(0.9);      /* 更标准的缩放 */
+  transform-origin: top left;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* 防止缩放后位置错乱 */
+.markdown-preview-view .mermaid {
+  display: inline-block;
+}
