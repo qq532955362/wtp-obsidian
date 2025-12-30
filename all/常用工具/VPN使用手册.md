@@ -34,31 +34,23 @@
 注：IP国内被封（停止EC2更换IP），更换route53域名对应公网IP;重装只需运行新容器
 
 MAC刷新DNS\:sudo killall -HUP mDNSResponder && echo macOS DNS Cache Reset
-
 ### 拉取镜像
 
     docker pull kylemanna/openvpn
 
 ### 设置全局变量
-
     OVPN_DATA="data/openvpn"
     IP="0.tcp.ap.ngrok.io"  # 公网IP或域名
-
 ### 创建文件目录
-
     mkdir -p ${OVPN_DATA}
-
 ### 生成配置文件
-
     docker run -v ${OVPN_DATA}:/etc/openvpn --rm kylemanna/openvpn ovpn_genconfig -u udp://${IP} -s 11.8.8.0/24 -r 11.8.8.1/24 -n 223.5.5.5 -n 223.6.6.6 -n 
     # 参数解释
     # -u 指定服务器公网地址
     # -s 分配给客户端的子网IP，默认是192.168.255.0/24
     # -r 路由地址，默认是192.168.254.0/24
     # -n DNS地址，可以多个，默认是8.8.8.8和8.8.4.4
-
 ### 生成密钥文件
-
 ```bash
 docker run -v ${OVPN_DATA}:/etc/openvpn --rm -it kylemanna/openvpn ovpn_initpki
 Enter PEM pass phrase: 输入密码（你是看不见的） 
@@ -67,21 +59,15 @@ Common Name (eg: your user, host, or server name) [Easy-RSA CA]:回车一下
 Enter pass phrase for /etc/openvpn/pki/private/ca.key:输入上边的密码
 Enter pass phrase for /etc/openvpn/pki/private/ca.key:输入上边的密码
 ```
-
 ### 运行docker容器
-
 ```bash
 docker run --name openvpn --restart=always -v ${OVPN_DATA}:/etc/openvpn -d -p 1194:1194/udp --privileged kylemanna/openvpn
 # 物理机上的端口按自己需求更改
 docker run  -v ${OVPN_DATA}:/etc/openvpn -d -p 1194:1194/udp --restart=always --name openvpn --cap-add=NET_ADMIN --sysctl net.ipv6.conf.all.disable_ipv6=0 --sysctl net.ipv6.conf.default.forwarding=1 --sysctl net.ipv6.conf.all.forwarding=1  kylemanna/openvpn 
 ```
-
 ### 安全组放行端口
-
 ## 签发证书和撤销证书
-
 ### 创建用户
-
 ```bash
 docker run -v ${OVPN_DATA}:/etc/openvpn --rm -it kylemanna/openvpn easyrsa build-client-full your-client-name nopass
 Enter pass phrase for /etc/openvpn/pki/private/ca.key:输入上边的密码
@@ -94,9 +80,7 @@ Enter pass phrase for /etc/openvpn/pki/private/ca.key:输入上边的密码
 mkdir ${OVPN_DATA}/client
 docker run -v ${OVPN_DATA}:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient your-client-name > ${OVPN_DATA}/client/your-client-name.ovpn
 ```
-
 ### 撤销签署的证书（删除用户）
-
 ```bash
 # 进入docker容器
 docker exec -it openvpn bash
