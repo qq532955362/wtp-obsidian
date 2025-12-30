@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "数据迁移/数据迁移准备.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -191,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5
+    "width": 383.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,17 +207,18 @@
   },
   "active": "9d0d9d8e252fc80b",
   "lastOpenFiles": [
-    "docker/docker重新部署es.md",
     "数据迁移/数据迁移准备.md",
+    "数据迁移/数据迁移操作.md",
+    "docker/docker部署jenkins.md",
+    "docker/docker部署mysql.md",
+    "docker/docker部署nacos.md",
+    "docker/docker部署nextChat.md",
+    "docker/docker部署nginx.md",
+    "docker/常用命令.md",
+    "docker/docker重新部署es.md",
     "flink-cdc/CDC多库多表实时入仓(Redshift)方案.md",
     "数据迁移",
-    "docker/docker部署nginx.md",
-    "docker/docker部署nextChat.md",
-    "docker/docker部署nacos.md",
-    "docker/docker部署mysql.md",
     "docker/docker部署kafka-UI.md",
-    "docker/docker部署jenkins.md",
-    "docker/常用命令.md",
     "常用工具/VPN使用手册.md",
     "docker",
     "vpn",
@@ -242,7 +243,6 @@
     "常用命令/vim常用命令.md",
     "README.md",
     "notes/数据迁移操作记录.md",
-    "daily-notes/2025-12-30.md",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png",
     "未命名.canvas"
   ]
