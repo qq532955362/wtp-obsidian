@@ -35,5 +35,4 @@ send \r
 after 3000 
 expect eof 
 EOF
-
 ```
