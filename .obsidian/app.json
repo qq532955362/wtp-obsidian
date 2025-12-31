@@ -2,5 +2,7 @@
   "spellcheck": false,
   "showLineNumber": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": ""
+  "newFileFolderPath": "notes",
+  "trashOption": "local",
+  "readableLineLength": false
 }

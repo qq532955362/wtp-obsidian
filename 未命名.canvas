@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"c0941d47d5e5ea99","type":"text","text":"","x":-320,"y":-170,"width":250,"height":60},
+		{"id":"44e0baaebdb57671","type":"text","text":"目标数据库实例确认","x":-720,"y":-230,"width":250,"height":60},
+		{"id":"203262d6bdc8bd44","type":"text","text":"","x":-720,"y":-110,"width":250,"height":60}
+	],
+	"edges":[]
+}
