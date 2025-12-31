@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b5007c0a8ea5de2c",
+        "id": "8989037c28a354b6",
         "type": "tabs",
         "children": [
           {
-            "id": "a36968548cd5638d",
+            "id": "031f0620b040d2ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据迁移/数据迁移准备.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "数据迁移准备"
+              "title": "新标签页"
             }
           }
         ]
@@ -95,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据迁移/数据迁移准备.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "数据迁移准备 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -114,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据迁移/数据迁移准备.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "数据迁移准备 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -157,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据迁移/数据迁移准备.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数据迁移准备 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -191,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1202.5
+    "width": 1186.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,12 +198,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3b16f7315f27732",
+  "active": "031f0620b040d2ce",
   "lastOpenFiles": [
+    "数据迁移/使用docker命令批量重启atoto开头的所有服务.md",
+    "数据迁移/将nacos的配置文件中的数据库链接批量替换.md",
     "数据迁移/数据迁移操作.md",
-    "未命名.canvas",
     "数据迁移/数据迁移准备.md",
     "daily-notes/2025-12-30.md",
+    "未命名.canvas",
     "README.md",
     "all/MySQL/性能排查.md",
     "all/常用命令/vim常用命令.md",
@@ -219,8 +214,6 @@
     "all/常用命令/Linux.md",
     "all/常用命令/expect脚本用法.md",
     "all/vpn/VPN使用手册.md",
-    "数据迁移/将nacos的配置文件中的数据库链接批量替换.md",
-    "数据迁移/使用docker命令批量重启atoto开头的所有服务.md",
     "all/kafka/Kafka基本操作.md",
     "all",
     "all/前端/node/命令.md",

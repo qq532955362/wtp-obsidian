@@ -1,4 +1,4 @@
-```mysql
+```sql
 
 -- 设置变量
 set @source_str = 'jdbc:mysql://192.168.31.5:3306';
