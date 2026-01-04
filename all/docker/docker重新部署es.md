@@ -11,6 +11,8 @@ services:
       - ES_JAVA_OPTS=-Xms1024m -Xmx1024m
       - ES_SETTING_INDEX_SEARCH_SLOWLOG_THRESHOLD_QUERY_WARN=5s
       - ES_SETTING_INDEX_INDEXING_SLOWLOG_THRESHOLD_INDEX_WARN=5s
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=wtp-test-password
     ports:
       - "9201:9200"
       - "9301:9300"
