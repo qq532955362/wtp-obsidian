@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "all/docker/docker重新部署es.md",
+                "file": "all/docker/docker部署nextChat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker重新部署es"
+              "title": "docker部署nextChat"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "all/docker/docker重新部署es.md",
+                "file": "数据迁移/数据迁移准备.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "docker重新部署es 的反向链接列表"
+              "title": "数据迁移准备 的反向链接列表"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "all/docker/docker重新部署es.md",
+                "file": "数据迁移/数据迁移准备.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "docker重新部署es 的出链列表"
+              "title": "数据迁移准备 的出链列表"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "all/docker/docker重新部署es.md",
+                "file": "数据迁移/数据迁移准备.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "docker重新部署es 的大纲"
+              "title": "数据迁移准备 的大纲"
             }
           },
           {
@@ -205,11 +205,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77ccf9838009e551",
+  "active": "031f0620b040d2ce",
   "lastOpenFiles": [
-    "数据迁移/数据迁移操作.md",
     "数据迁移/数据迁移准备.md",
+    "数据迁移/数据迁移操作.md",
     "数据迁移/使用docker命令批量重启atoto开头的所有服务.md",
+    "all/docker/docker重新部署es.md",
     "数据迁移/将nacos的配置文件中的数据库链接批量替换.md",
     "daily-notes/2025-12-30.md",
     "未命名.canvas",
@@ -233,7 +234,6 @@
     "all/docker/docker部署nacos.md",
     "all/docker/docker部署nextChat.md",
     "all/docker/docker部署nginx.md",
-    "all/docker/docker重新部署es.md",
     "数据迁移",
     "all/docker",
     "all/vpn",

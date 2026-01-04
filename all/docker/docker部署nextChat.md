@@ -15,7 +15,7 @@ services:
       - BASE_URL=https://api.deepseek.com
       - DEEPSEEK_URL=https://api.deepseek.com
       - CUSTOM_MODELS=-all,+deepseek-chat,+deepseek-reasoner
-      - DEEPSEEK_API_KEY=sk-116867d151e34642bd649ffca201186f
+      - DEEPSEEK_API_KEY=sk-xxxx
       - HIDE_USER_API_KEY=1
       - ENABLE_BALANCE_QUERY=1
       - DEFAULT_MODEL=deepseek-chat
