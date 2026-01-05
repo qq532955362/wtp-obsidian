@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ed384e44409f99f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据迁移/命令/docker批量重启连接过数据库的服务.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "docker批量重启连接过数据库的服务"
-            }
-          },
-          {
             "id": "3a2f7db3069ec816",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据迁移/数据迁移操作 生产.md",
+                "file": "数据迁移/数据迁移操作 测服.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据迁移操作 生产"
+              "title": "数据迁移操作 测服"
             }
           }
         ]
@@ -171,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据迁移/命令/docker批量重启连接过数据库的服务.md",
+                "file": "数据迁移/数据迁移操作 测服.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "docker批量重启连接过数据库的服务 的大纲"
+              "title": "数据迁移操作 测服 的大纲"
             }
           },
           {
@@ -205,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 690.5
+    "width": 1149.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,14 +205,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ed384e44409f99f",
+  "active": "3a2f7db3069ec816",
   "lastOpenFiles": [
     "数据迁移/命令/使用docker命令批量重启.md",
-    "数据迁移/命令/docker单条命令.md",
-    "数据迁移/数据迁移操作 测服.md",
-    "数据迁移/数据迁移准备.md",
     "数据迁移/数据迁移操作 生产.md",
+    "数据迁移/数据迁移操作 测服.md",
     "数据迁移/命令/docker批量重启连接过数据库的服务.md",
+    "数据迁移/命令/docker单条命令.md",
+    "数据迁移/数据迁移准备.md",
     "conflict-files-obsidian-git.md",
     "数据迁移/数据迁移操作.md",
     "数据迁移/命令/将nacos的配置文件中的数据库链接批量替换.md",
