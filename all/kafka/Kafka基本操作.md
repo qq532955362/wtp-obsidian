@@ -1,6 +1,8 @@
-## 查看所有topic 多个broker用逗号(可以只连接其中一个，topic都是同步的) ./kafka-topics.sh --list --bootstrap-server broker-addr1:9092,broker-addr2:9092
 
-参数说明
+```sh
+## 查看所有topic 多个broker用逗号(可以只连接其中一个，topic都是同步的) 
+./kafka-topics.sh --list --bootstrap-server broker-addr1:9092,broker-addr2:9092
+```
 
 ```sh
 ## 消费某个topic中的数据 
@@ -38,3 +40,5 @@
 ##参数说明
 
 --time -1表示最新 -2表示最早
+```
+

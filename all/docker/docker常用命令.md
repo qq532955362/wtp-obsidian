@@ -40,3 +40,21 @@ docker ps -q -a --filter name=aaa --filter label=key=value --filter ancestor=xxx
 
 ```
 
+
+部署相关
+
+[[docker部署jenkins]]
+
+[[docker部署kafka-UI]]
+
+[[docker部署mysql]]
+
+[[docker部署nacos]]
+
+[[docker部署nextChat]]
+
+[[docker部署nginx]]
+
+[[docker部署nginx]]
+
+[[docker重新部署es]]

@@ -1,6 +1,7 @@
 
 
 `目录操作`
+
 ```sh
 cd /path/to/dir         # 进入目录
 cd                      # 回到当前用户主目录（~）
@@ -38,3 +39,14 @@ grep -r "error" /var/log/
 grep -i "warning" file.log     # 忽略大小写
 grep -n "test" file.txt        # 显示行号
 grep -v "DEBUG" file.log       # 排除包含 DEBUG 的行
+
+
+
+```
+
+
+[[expect脚本用法]]
+
+[[netstat]]
+
+[[vim常用命令]]
