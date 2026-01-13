@@ -1,7 +1,6 @@
 docker-compose.yml
 
 ```yml
-version: "3.9"
 services:
   nextChat: 
     image: yidadaa/chatgpt-next-web:latest
@@ -9,15 +8,16 @@ services:
     restart: always
     environment:
     ## 必填参数实际没有使用的话没啥用
-      - OPENAI_API_KEY=123
+    ##  - OPENAI_API_KEY=123
     ## 客户端密码
       - CODE=qq532955362
-      - BASE_URL=https://api.deepseek.com
+      - BASE_URL=https://api.deepseek.com/v1
       - DEEPSEEK_URL=https://api.deepseek.com
       - CUSTOM_MODELS=-all,+deepseek-chat,+deepseek-reasoner
       - DEEPSEEK_API_KEY=sk-xxxx
       - HIDE_USER_API_KEY=1
-      - ENABLE_BALANCE_QUERY=1
+    ## 用户自定义设置隐藏   
+    ##  - ENABLE_BALANCE_QUERY=1
       - DEFAULT_MODEL=deepseek-chat
     networks:
       - nginx-network

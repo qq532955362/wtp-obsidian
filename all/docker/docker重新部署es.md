@@ -13,6 +13,8 @@ services:
       - ES_SETTING_INDEX_INDEXING_SLOWLOG_THRESHOLD_INDEX_WARN=5s
       - xpack.security.enabled=true
       - ELASTIC_PASSWORD=wtp-test-password
+	  - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
     ports:
       - "9201:9200"
       - "9301:9300"
@@ -23,10 +25,9 @@ services:
       - /newdisk1/atoto/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     networks:
       - app_default
-
 networks:
-  app_default:
-    external: true
+  default:
+    driver: bridge
 ```
 elasticsearch.yml
 ```yml
