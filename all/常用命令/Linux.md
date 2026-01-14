@@ -1,6 +1,5 @@
 
-
-`目录操作`
+### `目录操作`
 
 ```sh
 cd /path/to/dir         # 进入目录
@@ -26,7 +25,7 @@ mv olddir newdir
 mv dir1 /tmp/dir2                     # 移动到新路径
 ```
 
-`文件操作`
+### `文件操作`
 
 ```sh
 find / -name file.txt                 # 按名称查找
@@ -45,8 +44,8 @@ grep -v "DEBUG" file.log       # 排除包含 DEBUG 的行
 ```
 
 
-[[expect脚本用法]]
+### [[expect脚本用法]]
 
-[[netstat]]
+### [[netstat]]
 
-[[vim常用命令]]
+### [[vim常用命令]]
