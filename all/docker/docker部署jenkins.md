@@ -3,25 +3,26 @@
 ```yml
 version: '3'
 services:
-  jenkins
+  jenkins:
     ## 官方镜像
-    image: jenkins
+    image: jenkins/jenkins
     ## 指定容器名
     container_name: jenkins
     ## 指定root用户让容器内的jenkins可以访问宿主机docker进程
     user: root
-    ## 指定整个jenkins后端默认带前缀jenkins用于多模块转发
     environment:
+      ## 指定整个jenkins后端默认带前缀jenkins用于多模块转发
       - JENKINS_OPTS=--prefix=/jenkins
       - JENKINS_UC=https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
       - JENKINS_UC_DOWNLOAD=https://mirrors.tuna.tsinghua.edu.cn/jenkins
     ## 指定jenkins网络 用于容器间互相通信
     networks:
-      - nginx-ssl_default
+      - nginx-network
     ## jenkins的端口如果占用换一个宿主机端口
-    ports:
-      - "8081:8080"   # 改成其他可用端口
-      - "50000:50000"
+    ## 不暴露端口使用docker network进行通信
+    ##ports:
+      ##- "8081:8080"   # 改成其他可用端口
+      ##- "50000:50000"
     ## jenkins工作空间挂载
     volumes:
       - /srv/jenkins_home:/var/jenkins_home
@@ -33,7 +34,7 @@ services:
 ## 定义网络
 networks:
   ## 定义的网络的名字
-  nginx-ssl_default:
+  nginx-network:
     ## 如果外部已经创建了则使用这个
     external: true
 

@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d2aa185190b26e8b",
+        "id": "e8237832ef899404",
         "type": "tabs",
         "children": [
           {
-            "id": "b5814e018c7774f9",
+            "id": "f9fdd6730f22063e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据迁移/数据迁移操作 测服.md",
+                "file": "all/docker/docker部署jenkins.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "数据迁移操作 测服"
+              "title": "docker部署jenkins"
             }
           }
         ]
@@ -79,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 422.5
   },
   "right": {
     "id": "e418e5e801b8e572",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据迁移/数据迁移操作 测服.md",
+                "file": "all/docker/docker部署jenkins.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数据迁移操作 测服 的大纲"
+              "title": "docker部署jenkins 的大纲"
             }
           },
           {
@@ -195,13 +196,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "obsidian-git:Open Git source control": false,
       "audio-recorder:开始/结束录音": false,
       "random-note:开始漫游笔记": false
@@ -209,33 +210,35 @@
   },
   "active": "77ccf9838009e551",
   "lastOpenFiles": [
-    "数据迁移/删除业务库.md",
+    "数据迁移/数据迁移操作 测服 回迁.md",
     "数据迁移/数据迁移操作 测服.md",
-    "all/常用命令/Linux.md",
-    "all/常用命令/expect脚本用法.md",
-    "all/docker/docker部署nacos.md",
-    "all/docker/docker部署nginx.md",
-    "notes/`nacos-mysql-init.sql`.md",
-    "all/docker/docker部署jenkins.md",
-    "all/MySQL/用户权限相关.md",
-    "all/docker/docker部署mysql.md",
-    "all/docker/docker部署nextChat.md",
-    "数据迁移/数据迁移操作 生产.md",
-    "all/MySQL/基础命令.md",
-    "all/MySQL/事务相关.md",
-    "all/MySQL/MySQL.md",
-    "all/MySQL/性能排查.md",
-    "all/MySQL/特殊查询.md",
+    "数据迁移/xxl-job使用dockercompose重启.md",
+    "数据迁移/traccar使用dockercompose重启.md",
+    "数据迁移/nacos使用dockercompose重启.md",
+    "数据迁移/flowableui.md",
     "数据迁移/数据迁移准备.md",
-    "all/docker/docker部署kafka-UI.md",
-    "all/flink-cdc/CDC多库多表实时入仓(Redshift)方案.md",
-    "all/vpn/VPN使用手册.md",
-    "all/docker/docker重新部署es.md",
-    "all/docker/docker常用命令.md",
+    "数据迁移/数据迁移操作 生产.md",
+    "数据迁移/命令/用户权限相关.md",
+    "数据迁移/命令/docker单条命令.md",
+    "all/MySQL/用户权限相关.md",
+    "all/常用工具/Navicat.md",
+    "数据迁移/命令/docker批量重启连接过数据库的服务.md",
+    "Pasted image 20260116110937.png",
+    "daily-notes/2025-12-30.md",
+    "all/MCP/Java开发DBA.md",
     "all/常用命令/Mac常用命令.md",
-    "all/前端/node/node命令.md",
+    "all/常用命令/netstat.md",
+    "all/常用命令/vim常用命令.md",
+    "all/常用工具/idea.md",
+    "all/常用工具/Obsidian.md",
+    "all/常用工具/常用工具.md",
+    "all/docker/docker部署yearning.md",
+    "all/docker/docker常用命令.md",
+    "all/docker/docker重新部署es.md",
+    "all/常用命令/Linux.md",
+    "all/docker/docker部署nextChat.md",
+    "all/MCP",
     "未命名.canvas",
-    "README.md",
     "notes/未命名.base",
     "数据迁移/命令",
     "all",
@@ -245,7 +248,6 @@
     "all/flink-cdc",
     "all/kafka",
     "all/常用工具",
-    "MySQL/地方df",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png"
   ]
 }

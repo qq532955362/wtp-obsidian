@@ -4,5 +4,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "notes",
   "trashOption": "local",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "openBehavior": "daily"
 }

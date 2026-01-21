@@ -40,6 +40,12 @@ docker ps -q -a --filter name=aaa --filter label=key=value --filter ancestor=xxx
 
 ```
 
+## 拷贝容器中的内容到宿主机
+
+```
+docker cp [容器id]:[容器内文件路径]  [宿主机目标路径]
+```
+
 
 部署相关
 
