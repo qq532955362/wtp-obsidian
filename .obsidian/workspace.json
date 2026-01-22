@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e8237832ef899404",
+        "id": "3737ef3ec3d721e9",
         "type": "tabs",
         "children": [
           {
-            "id": "f9fdd6730f22063e",
+            "id": "37b0f05e218314c4",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "notes/未命名 3.base",
-                "viewName": "表格"
+                "file": "notes/`nacos-mysql-init.sql`.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "未命名 3"
+              "icon": "lucide-file",
+              "title": "`nacos-mysql-init.sql`"
             }
           }
         ]
@@ -156,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/未命名 3.base",
+                "file": "notes/`nacos-mysql-init.sql`.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 3 的大纲"
+              "title": "`nacos-mysql-init.sql` 的大纲"
             }
           },
           {
@@ -206,9 +208,11 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "77ccf9838009e551",
+  "active": "37b0f05e218314c4",
   "lastOpenFiles": [
     "notes/未命名 2.base",
+    "notes/未命名 1.base",
+    "notes/未命名.base",
     "notes/未命名 3.base",
     "数据迁移/traccar使用dockercompose重启.md",
     "数据迁移/xxl-job使用dockercompose重启.md",
@@ -219,10 +223,8 @@
     "数据迁移/nacos使用dockercompose重启.md",
     "数据迁移/数据迁移操作 测服.md",
     "数据迁移/删除业务库.md",
-    "notes/未命名 1.base",
     "数据迁移.zip",
     "数据迁移.zip.tmp",
-    "notes/未命名.base",
     "all/MySQL/binlog相关.md",
     "数据迁移/命令/使用docker命令批量重启.md",
     "数据迁移/命令/将nacos的配置文件中的数据库链接批量替换.md",
