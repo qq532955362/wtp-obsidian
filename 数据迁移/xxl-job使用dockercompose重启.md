@@ -8,7 +8,7 @@
 services:
   xxl-job-admin:
     image: xuxueli/xxl-job-admin:2.3.0
-    container_name: xxl-job-admin
+    container_name: xxl-job-admin-compose
     ports:
       - "8081:8080"
     volumes:
@@ -30,13 +30,13 @@ services:
 services:
   xxl-job-admin:
     image: xuxueli/xxl-job-admin:2.3.0
-    container_name: xxl-job-admin
+    container_name: xxl-job-admin-compose
     ports:
       - "8081:8080"
     volumes:
       - /home/mydata/xjob/log:/data/applogs
     environment:
-      - PARAMS=--spring.datasource.url=jdbc:mysql://pc-rj9yb9xt16gbo74hn.rwlb.rds-aliyun-america.rds.aliyuncs.com:3306/timer-job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai --spring.datasource.username=application --spring.datasource.password=VCQEmY_DWlYOl)rA(DdHX
+      - PARAMS=--spring.datasource.url=jdbc:mysql://pe-rj9be6sroo6bk0g44.rwlb.rds-aliyun-america.rds.aliyuncs.com:3306/timer-job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai --spring.datasource.username=xxljob --spring.datasource.password=atoto_xxljob_123456
     restart: unless-stopped
 ```
 

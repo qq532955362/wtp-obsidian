@@ -11,15 +11,13 @@
             "id": "f9fdd6730f22063e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "all/docker/docker部署jenkins.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "notes/未命名 3.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "docker部署jenkins"
+              "icon": "lucide-table",
+              "title": "未命名 3"
             }
           }
         ]
@@ -158,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "all/docker/docker部署jenkins.md",
+                "file": "notes/未命名 3.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "docker部署jenkins 的大纲"
+              "title": "未命名 3 的大纲"
             }
           },
           {
@@ -210,19 +208,31 @@
   },
   "active": "77ccf9838009e551",
   "lastOpenFiles": [
-    "数据迁移/数据迁移操作 测服 回迁.md",
-    "数据迁移/数据迁移操作 测服.md",
-    "数据迁移/xxl-job使用dockercompose重启.md",
+    "notes/未命名 2.base",
+    "notes/未命名 3.base",
     "数据迁移/traccar使用dockercompose重启.md",
-    "数据迁移/nacos使用dockercompose重启.md",
+    "数据迁移/xxl-job使用dockercompose重启.md",
     "数据迁移/flowableui.md",
-    "数据迁移/数据迁移准备.md",
     "数据迁移/数据迁移操作 生产.md",
+    "数据迁移/数据迁移操作 测服 回迁.md",
+    "数据迁移/数据迁移准备.md",
+    "数据迁移/nacos使用dockercompose重启.md",
+    "数据迁移/数据迁移操作 测服.md",
+    "数据迁移/删除业务库.md",
+    "notes/未命名 1.base",
+    "数据迁移.zip",
+    "数据迁移.zip.tmp",
+    "notes/未命名.base",
+    "all/MySQL/binlog相关.md",
+    "数据迁移/命令/使用docker命令批量重启.md",
+    "数据迁移/命令/将nacos的配置文件中的数据库链接批量替换.md",
     "数据迁移/命令/用户权限相关.md",
+    "数据迁移/命令/查看binlog确定哪里的在变动.md",
     "数据迁移/命令/docker单条命令.md",
+    "数据迁移/命令/docker批量重启连接过数据库的服务.md",
+    "all/docker/docker部署jenkins.md",
     "all/MySQL/用户权限相关.md",
     "all/常用工具/Navicat.md",
-    "数据迁移/命令/docker批量重启连接过数据库的服务.md",
     "Pasted image 20260116110937.png",
     "daily-notes/2025-12-30.md",
     "all/MCP/Java开发DBA.md",
@@ -230,24 +240,12 @@
     "all/常用命令/netstat.md",
     "all/常用命令/vim常用命令.md",
     "all/常用工具/idea.md",
-    "all/常用工具/Obsidian.md",
-    "all/常用工具/常用工具.md",
-    "all/docker/docker部署yearning.md",
-    "all/docker/docker常用命令.md",
-    "all/docker/docker重新部署es.md",
-    "all/常用命令/Linux.md",
-    "all/docker/docker部署nextChat.md",
     "all/MCP",
     "未命名.canvas",
-    "notes/未命名.base",
     "数据迁移/命令",
     "all",
     "数据迁移",
     "all/docker",
-    "all/vpn",
-    "all/flink-cdc",
-    "all/kafka",
-    "all/常用工具",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png"
   ]
 }

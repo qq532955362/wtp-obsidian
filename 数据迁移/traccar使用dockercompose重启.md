@@ -17,6 +17,8 @@ services:
 	container_name: traccar
 	hostname: traccar
 	restart: unless-stopped
+	environment:
+	  - DB_CREATE=false
 	ports: 
 	  - "8082:8082"
 	  - "5000-5150:5000-5150"
@@ -69,8 +71,8 @@ services:
 	  - "5000-5150:5000-5150"
 	  - "5000-5150:5000-5150/udp"
 	volumes: 
-	  - /mydata/traccar/logs:/opt/traccar/logs:rw
-	  - /mydata/traccar/traccar.xml:/opt/traccar/conf/traccar.xml:ro
+	  - /home/mydata/traccar/logs:/opt/traccar/logs:rw
+	  - /home/mydata/traccar/traccar.xml:/opt/traccar/conf/traccar.xml:ro
 ```
 
 
