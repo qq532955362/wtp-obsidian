@@ -63,7 +63,7 @@ vim /home/mydata/traccar/traccar.xml
 services: 
   traccar: 
     image: traccar/traccar:latest
-	container_name: traccar
+	container_name: traccar-compose
 	hostname: traccar
 	restart: unless-stopped
 	ports: 

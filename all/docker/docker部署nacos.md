@@ -23,6 +23,8 @@ services:
 	  - MODE=standalone
 	  # 原始字符长度大于32的字符的base64
 	  - NACOS_AUTH_TOKEN=cXE1MzI5NTUzNjJxcTUzMjk1NTM2MnFxNTMyOTU1MzYy
+      # context路径
+      - NACOS_SERVER_CONTEXTPATH=/nacos
 	  # key
 	  - NACOS_AUTH_IDENTITY_KEY=wtp-nacos-key
 	  # value

@@ -36,7 +36,7 @@ services:
     volumes:
       - /home/mydata/xjob/log:/data/applogs
     environment:
-      - PARAMS=--spring.datasource.url=jdbc:mysql://pe-rj9be6sroo6bk0g44.rwlb.rds-aliyun-america.rds.aliyuncs.com:3306/timer-job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai --spring.datasource.username=xxljob --spring.datasource.password=atoto_xxljob_123456
+      - PARAMS=--spring.datasource.url=jdbc:mysql://pe-rj9be6sroo6bk0g44.rwlb.rds-aliyun-america.rds.aliyuncs.com:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai --spring.datasource.username=xxljob --spring.datasource.password=atoto_xxljob_123456
     restart: unless-stopped
 ```
 

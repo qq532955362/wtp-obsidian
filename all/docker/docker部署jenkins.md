@@ -29,6 +29,7 @@ services:
       ## 这是jenkins容器访问宿主机docker进程的关键
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/bin/docker:/usr/bin/docker
+      - /usr/local/bin/docker-compose:/usr/local/bin/docker-compose
     ## 意外重启
     restart: always
 ## 定义网络

@@ -67,15 +67,7 @@ services:
     environment:
       - MODE=standalone
     working_dir: /home/nacos
-    networks:
-      - default
     restart: always
-
-networks:
-  default:
-    name: nacos_default
-    external: true
-
 ```
 
 

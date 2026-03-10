@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"dc1fcd402e47ef6d","type":"group","x":-1180,"y":-260,"width":1600,"height":980,"label":"调用流程"},
+		{"id":"79dde9456bc9c144","type":"text","text":"按钮点击","x":-800,"y":-240,"width":174,"height":50,"color":"5"},
+		{"id":"2048f781c564c172","type":"text","text":"后端触发审核","x":-800,"y":-50,"width":174,"height":50,"color":"5"},
+		{"id":"eb69fdce4ec61fc0","type":"text","text":"审核结果","x":-800,"y":160,"width":174,"height":50,"color":"5"},
+		{"id":"08f44d69a17d15a4","type":"text","text":"组装[[出站智能体#需要的数据#]]","x":-480,"y":-150,"width":174,"height":50,"color":"5"},
+		{"id":"25850a109b88929b","type":"text","text":"调用agent审核","x":-200,"y":-150,"width":174,"height":50,"color":"5"},
+		{"id":"86b88e9122fd0908","type":"text","text":"REVISE","x":-800,"y":340,"width":174,"height":50,"color":"3"},
+		{"id":"bbcfa16cada3c683","type":"text","text":"APPROVED","x":-480,"y":160,"width":174,"height":50,"color":"4"},
+		{"id":"a58e2af9acff7158","type":"text","text":"回复按钮改为可发送状态","x":-160,"y":160,"width":174,"height":50,"color":"5"},
+		{"id":"be9c8c0417f408a1","type":"text","text":">[!NOTE] 记录发起审核信息\n>- 草稿hash\n>- 草稿记录工单id","x":80,"y":-222,"width":280,"height":197},
+		{"id":"bc8514d15c287615","type":"text","text":">[!NOTE] 发送前校验\n>- 草稿hash与qa的hash一致\n>- 工单id是否对应\n>- 权限为工单处理人\n>- 过期检查","x":40,"y":158,"width":320,"height":205},
+		{"id":"e0c2c79e49410c0a","type":"text","text":">[!NOTE] 结果记录\n>- 对应qa结果\n>- 关联工单id","x":-1100,"y":0,"width":250,"height":150},
+		{"id":"14a3c9c0b3607c0e","type":"text","text":"BLOCK","x":-800,"y":460,"width":174,"height":50,"color":"1"},
+		{"id":"f3d4366a0263567a","type":"text","text":"返回409，提示对应不满足信息","x":-480,"y":460,"width":174,"height":50,"color":"1"},
+		{"id":"c99faad7047cfc9d","type":"text","text":"发送回复","x":-160,"y":460,"width":174,"height":50,"color":"5"},
+		{"id":"ff251f37bcaa70c7","type":"text","text":"存在建议修复的地方","x":-480,"y":340,"width":174,"height":50,"color":"3"}
+	],
+	"edges":[
+		{"id":"df56eee355a08d6e","fromNode":"79dde9456bc9c144","fromSide":"right","toNode":"08f44d69a17d15a4","toSide":"left"},
+		{"id":"79fc96f90d17d25b","fromNode":"08f44d69a17d15a4","fromSide":"right","toNode":"25850a109b88929b","toSide":"left"},
+		{"id":"6d1b8eaf79549530","fromNode":"25850a109b88929b","fromSide":"bottom","toNode":"eb69fdce4ec61fc0","toSide":"top"},
+		{"id":"c82f33373cec3c89","fromNode":"2048f781c564c172","fromSide":"right","toNode":"08f44d69a17d15a4","toSide":"left"},
+		{"id":"dbaf4678ecbc3f57","fromNode":"eb69fdce4ec61fc0","fromSide":"right","toNode":"bbcfa16cada3c683","toSide":"left","label":"decision"},
+		{"id":"0a74c4babb0d72a3","fromNode":"eb69fdce4ec61fc0","fromSide":"bottom","toNode":"86b88e9122fd0908","toSide":"top","label":"decision"},
+		{"id":"e37c44b4e4e71ff3","fromNode":"bbcfa16cada3c683","fromSide":"right","toNode":"a58e2af9acff7158","toSide":"left"},
+		{"id":"b1d9f1699dc2e6c2","fromNode":"86b88e9122fd0908","fromSide":"right","toNode":"ff251f37bcaa70c7","toSide":"left"},
+		{"id":"308e54b058bd88c5","fromNode":"a58e2af9acff7158","fromSide":"bottom","toNode":"c99faad7047cfc9d","toSide":"top"},
+		{"id":"a39e1872254bfa62","fromNode":"bc8514d15c287615","fromSide":"left","toNode":"c99faad7047cfc9d","toSide":"top"},
+		{"id":"3824f531c100beb4","fromNode":"f3d4366a0263567a","fromSide":"right","toNode":"c99faad7047cfc9d","toSide":"left","color":"1","label":"高权限"},
+		{"id":"bb19ac7aae5ca451","fromNode":"be9c8c0417f408a1","fromSide":"left","toNode":"25850a109b88929b","toSide":"right"},
+		{"id":"4e829567864fc2b2","fromNode":"e0c2c79e49410c0a","fromSide":"right","toNode":"eb69fdce4ec61fc0","toSide":"top"},
+		{"id":"b652dd9a7bba77ae","fromNode":"14a3c9c0b3607c0e","fromSide":"right","toNode":"f3d4366a0263567a","toSide":"left"},
+		{"id":"ec9f007a61810aa8","fromNode":"eb69fdce4ec61fc0","fromSide":"left","toNode":"14a3c9c0b3607c0e","toSide":"left","label":"decision"},
+		{"id":"ee61c08d63b1ff58","fromNode":"ff251f37bcaa70c7","fromSide":"right","toNode":"c99faad7047cfc9d","toSide":"top"}
+	]
+}

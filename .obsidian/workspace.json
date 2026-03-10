@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3737ef3ec3d721e9",
+        "id": "b87bdeacd25b314b",
         "type": "tabs",
         "children": [
           {
-            "id": "37b0f05e218314c4",
+            "id": "a9a6abfa0f3946bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/`nacos-mysql-init.sql`.md",
+                "file": "daily-notes/出站智能体合集/prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "`nacos-mysql-init.sql`"
+              "title": "prompt"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 334.5
   },
   "right": {
     "id": "e418e5e801b8e572",
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/`nacos-mysql-init.sql`.md",
+                "file": "daily-notes/出站智能体合集/prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "`nacos-mysql-init.sql` 的大纲"
+              "title": "prompt 的大纲"
             }
           },
           {
@@ -192,11 +192,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 810.5
+    "width": 884.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -208,46 +207,48 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "37b0f05e218314c4",
+  "active": "a9a6abfa0f3946bc",
   "lastOpenFiles": [
+    "daily-notes/出站智能体合集/调用流程相关schema.md",
+    "daily-notes/出站智能体合集/prompt.md",
+    "daily-notes/出站智能体合集/流程.canvas",
+    "daily-notes/出站智能体合集/出站智能体.md",
+    "daily-notes/2025-12-30.md",
+    "all/docker/docker部署nginx.md",
+    "all/常用命令/Linux.md",
+    "数据迁移/数据迁移准备.md",
+    "all/常用命令/nginx.md",
+    "all/常用命令/netstat.md",
+    "all/vpn/VPN使用手册.md",
+    "daily-notes/出站智能体合集/流程.png",
+    "Pasted image 20260116110937.png",
+    "daily-notes/出站智能体合集",
+    "数据迁移/数据迁移操作 生产.md",
+    "数据迁移/删除业务库.md",
+    "all/常用命令/vim常用命令.md",
+    "all/常用命令/Mac常用命令.md",
+    "all/常用命令/expect脚本用法.md",
+    "all/常用工具/Obsidian.md",
+    "all/常用工具/Navicat.md",
+    "all/常用工具/idea.md",
+    "all/常用工具/常用工具.md",
+    "all/docker/docker部署nacos.md",
+    "all/docker/docker部署yearning.md",
+    "all/docker/docker部署jenkins.md",
+    "README.md",
+    "数据迁移/nacos使用dockercompose重启.md",
+    "all/docker/docker常用命令.md",
+    "all/docker/docker重新部署es.md",
+    "notes/未命名.base",
     "notes/未命名 2.base",
     "notes/未命名 1.base",
-    "notes/未命名.base",
     "notes/未命名 3.base",
-    "数据迁移/traccar使用dockercompose重启.md",
-    "数据迁移/xxl-job使用dockercompose重启.md",
-    "数据迁移/flowableui.md",
-    "数据迁移/数据迁移操作 生产.md",
-    "数据迁移/数据迁移操作 测服 回迁.md",
-    "数据迁移/数据迁移准备.md",
-    "数据迁移/nacos使用dockercompose重启.md",
-    "数据迁移/数据迁移操作 测服.md",
-    "数据迁移/删除业务库.md",
     "数据迁移.zip",
     "数据迁移.zip.tmp",
-    "all/MySQL/binlog相关.md",
-    "数据迁移/命令/使用docker命令批量重启.md",
-    "数据迁移/命令/将nacos的配置文件中的数据库链接批量替换.md",
-    "数据迁移/命令/用户权限相关.md",
-    "数据迁移/命令/查看binlog确定哪里的在变动.md",
-    "数据迁移/命令/docker单条命令.md",
-    "数据迁移/命令/docker批量重启连接过数据库的服务.md",
-    "all/docker/docker部署jenkins.md",
-    "all/MySQL/用户权限相关.md",
-    "all/常用工具/Navicat.md",
-    "Pasted image 20260116110937.png",
-    "daily-notes/2025-12-30.md",
-    "all/MCP/Java开发DBA.md",
-    "all/常用命令/Mac常用命令.md",
-    "all/常用命令/netstat.md",
-    "all/常用命令/vim常用命令.md",
-    "all/常用工具/idea.md",
     "all/MCP",
     "未命名.canvas",
     "数据迁移/命令",
     "all",
-    "数据迁移",
-    "all/docker",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png"
   ]
 }

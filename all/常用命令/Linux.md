@@ -43,9 +43,11 @@ grep -v "DEBUG" file.log       # 排除包含 DEBUG 的行
 
 ```
 
-
+`系统性能相关`
 ### [[expect脚本用法]]
 
 ### [[netstat]]
 
 ### [[vim常用命令]]
+
+[[nginx]]

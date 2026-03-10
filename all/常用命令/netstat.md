@@ -3,5 +3,5 @@
 # -a：显示所有连接和监听端口
 # -n：数字形式显示地址和端口
 # -o：显示关联的进程 ID (PID)
-netstat -an0
+netstat -ano
 ```
