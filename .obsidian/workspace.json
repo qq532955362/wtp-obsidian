@@ -11,10 +11,15 @@
             "id": "a9a6abfa0f3946bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "daily-notes/出站智能体合集/prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "prompt"
             }
           }
         ]
@@ -153,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "daily-notes/出站智能体合集/prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "prompt 的大纲"
             }
           },
           {
@@ -203,6 +209,7 @@
   },
   "active": "a9a6abfa0f3946bc",
   "lastOpenFiles": [
+    "daily-notes/出站智能体合集/出站智能体.md",
     "notes/`nacos-mysql-init.sql`.md",
     "数据迁移/命令/查看binlog确定哪里的在变动.md",
     "daily-notes/出站智能体合集/调用流程相关schema.md",
@@ -215,7 +222,6 @@
     "数据迁移/删除业务库.md",
     "daily-notes/出站智能体合集/prompt.md",
     "daily-notes/出站智能体合集/流程.canvas",
-    "daily-notes/出站智能体合集/出站智能体.md",
     "daily-notes/2025-12-30.md",
     "all/docker/docker部署nginx.md",
     "all/常用命令/Linux.md",
