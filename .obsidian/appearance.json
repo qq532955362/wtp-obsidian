@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "theme": "system",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "accentColor": "#d45cf5"
 }

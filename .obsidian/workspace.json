@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b87bdeacd25b314b",
+        "id": "5736137953e79a61",
         "type": "tabs",
         "children": [
           {
-            "id": "a9a6abfa0f3946bc",
+            "id": "6fdfc22248034d6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-notes/出站智能体合集/prompt.md",
+                "file": "daily-notes/设备分享/设备分享流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "prompt"
+              "title": "设备分享流程"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 462.5110321044922
   },
   "right": {
     "id": "e418e5e801b8e572",
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-notes/出站智能体合集/prompt.md",
+                "file": "daily-notes/设备分享/设备分享流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "prompt 的大纲"
+              "title": "设备分享流程 的大纲"
             }
           },
           {
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 884.5
+    "width": 733.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,38 +207,40 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "a9a6abfa0f3946bc",
+  "active": "6fdfc22248034d6b",
   "lastOpenFiles": [
-    "daily-notes/出站智能体合集/出站智能体.md",
-    "notes/`nacos-mysql-init.sql`.md",
-    "数据迁移/命令/查看binlog确定哪里的在变动.md",
-    "daily-notes/出站智能体合集/调用流程相关schema.md",
-    "数据迁移/nacos使用dockercompose重启.md",
-    "all/MySQL/MySQL.md",
-    "all/MySQL/binlog相关.md",
-    "all/MySQL/用户权限相关.md",
-    "all/MySQL/基础命令.md",
-    "README.md",
-    "数据迁移/删除业务库.md",
-    "daily-notes/出站智能体合集/prompt.md",
-    "daily-notes/出站智能体合集/流程.canvas",
-    "daily-notes/2025-12-30.md",
-    "all/docker/docker部署nginx.md",
+    "daily-notes/说明书文本动态向量化/demo.md",
+    "all/docker/docker部署jenkins.md",
     "all/常用命令/Linux.md",
-    "数据迁移/数据迁移准备.md",
+    "all/常用命令/expect脚本用法.md",
+    "all/常用工具/Obsidian.md",
+    "all/常用工具/常用工具.md",
+    "all/常用工具/idea.md",
+    "all/常用工具/Navicat.md",
+    "all/常用命令/vim常用命令.md",
     "all/常用命令/nginx.md",
     "all/常用命令/netstat.md",
-    "all/vpn/VPN使用手册.md",
+    "all/常用命令/Mac常用命令.md",
+    "daily-notes/设备分享/设备分享流程.md",
+    "数据迁移/数据迁移准备.md",
+    "数据迁移/flowableui.md",
+    "daily-notes/出站智能体合集/prompt 优化.md",
+    "daily-notes/说明书文本动态向量化/测试返回的markdown.md",
+    "daily-notes/说明书文本动态向量化/模型调研.md",
+    "daily-notes/说明书文本动态向量化/横向对比（综合推荐阿里云百炼）.md",
+    "daily-notes/出站智能体合集/流程.canvas",
+    "daily-notes/出站智能体合集/规则文件抽取的json.md",
+    "daily-notes/设备分享",
+    "daily-notes/出站智能体合集/调用流程相关schema.md",
+    "daily-notes/出站智能体合集/prompt.md",
+    "daily-notes/出站智能体合集/出站智能体.md",
+    "all/docker/docker部署nginx.md",
+    "daily-notes/2026-03-20.md",
+    "daily-notes/2025-12-30.md",
+    "daily-notes/说明书文本动态向量化",
     "daily-notes/出站智能体合集/流程.png",
     "Pasted image 20260116110937.png",
     "daily-notes/出站智能体合集",
-    "数据迁移/数据迁移操作 生产.md",
-    "all/常用命令/vim常用命令.md",
-    "all/常用命令/Mac常用命令.md",
-    "all/常用命令/expect脚本用法.md",
-    "all/常用工具/Obsidian.md",
-    "all/常用工具/Navicat.md",
-    "all/常用工具/idea.md",
     "notes/未命名.base",
     "notes/未命名 2.base",
     "notes/未命名 1.base",
@@ -247,8 +249,6 @@
     "数据迁移.zip.tmp",
     "all/MCP",
     "未命名.canvas",
-    "数据迁移/命令",
-    "all",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png"
   ]
 }

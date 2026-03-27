@@ -6,5 +6,6 @@
   "trashOption": "local",
   "readableLineLength": false,
   "openBehavior": "daily",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
