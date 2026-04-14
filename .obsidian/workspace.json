@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5736137953e79a61",
+        "id": "d0ddadd3cb18b8f5",
         "type": "tabs",
         "children": [
           {
-            "id": "6fdfc22248034d6b",
+            "id": "30f1dde6d28ae0c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-notes/设备分享/设备分享流程.md",
-                "mode": "source",
+                "file": "all/docker/docker部署mysql.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "设备分享流程"
+              "title": "docker部署mysql"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-notes/设备分享/设备分享流程.md",
+                "file": "all/docker/docker部署mysql.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "设备分享流程 的大纲"
+              "title": "docker部署mysql 的大纲"
             }
           },
           {
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 733.5
+    "width": 534.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,9 +207,33 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "6fdfc22248034d6b",
+  "active": "77ccf9838009e551",
   "lastOpenFiles": [
+    "all/docker/docker部署nextChat.md",
+    "all/docker/docker部署nginx.md",
+    "all/docker/docker部署mysql.md",
+    "all/docker/docker部署nacos.md",
+    "daily-notes/facebook/image/Snipaste_2026-04-10_10-55-23.png",
+    "daily-notes/facebook/image/image_927512129023007.png",
+    "daily-notes/facebook/image/image_811027844547016.png",
+    "daily-notes/facebook/image/image_718228638043332.png",
+    "daily-notes/facebook/image/image_069155578670065.png",
+    "daily-notes/facebook/账号之间的关联.md",
+    "daily-notes/facebook/主动发送消息.md",
+    "daily-notes/facebook/webhook触发流程.md",
+    "image",
+    "notes/www.baidu.com.md",
+    "daily-notes/2025-12-30.md",
+    "daily-notes/2026-03-20.md",
+    "daily-notes/epc短连接/流程.md",
+    "daily-notes/问题排查/com.atoto.info.pub.controller.deviceApp.voice.DeviceDriveChatAppController.queryDeviceConfig.md",
+    "daily-notes/设备分享/设备分享流程.md",
+    "daily-notes/facebook/image",
+    "daily-notes/问题排查/步骤.md",
+    "daily-notes/facebook",
+    "daily-notes/问题排查",
     "daily-notes/说明书文本动态向量化/demo.md",
+    "daily-notes/epc短连接",
     "all/docker/docker部署jenkins.md",
     "all/常用命令/Linux.md",
     "all/常用命令/expect脚本用法.md",
@@ -221,33 +245,14 @@
     "all/常用命令/nginx.md",
     "all/常用命令/netstat.md",
     "all/常用命令/Mac常用命令.md",
-    "daily-notes/设备分享/设备分享流程.md",
-    "数据迁移/数据迁移准备.md",
-    "数据迁移/flowableui.md",
-    "daily-notes/出站智能体合集/prompt 优化.md",
-    "daily-notes/说明书文本动态向量化/测试返回的markdown.md",
-    "daily-notes/说明书文本动态向量化/模型调研.md",
-    "daily-notes/说明书文本动态向量化/横向对比（综合推荐阿里云百炼）.md",
     "daily-notes/出站智能体合集/流程.canvas",
-    "daily-notes/出站智能体合集/规则文件抽取的json.md",
     "daily-notes/设备分享",
-    "daily-notes/出站智能体合集/调用流程相关schema.md",
-    "daily-notes/出站智能体合集/prompt.md",
-    "daily-notes/出站智能体合集/出站智能体.md",
-    "all/docker/docker部署nginx.md",
-    "daily-notes/2026-03-20.md",
-    "daily-notes/2025-12-30.md",
     "daily-notes/说明书文本动态向量化",
     "daily-notes/出站智能体合集/流程.png",
     "Pasted image 20260116110937.png",
     "daily-notes/出站智能体合集",
     "notes/未命名.base",
     "notes/未命名 2.base",
-    "notes/未命名 1.base",
-    "notes/未命名 3.base",
-    "数据迁移.zip",
-    "数据迁移.zip.tmp",
-    "all/MCP",
     "未命名.canvas",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png"
   ]
