@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "all/个人项目/配置文件.md",
+                "file": "daily-notes/出站智能体合集/规则文件抽取的json.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "配置文件"
+              "title": "规则文件抽取的json"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 462.5110321044922
+    "width": 200
   },
   "right": {
     "id": "e418e5e801b8e572",
@@ -173,8 +173,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 534.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,15 +202,21 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
       "audio-recorder:开始/结束录音": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "30f1dde6d28ae0c9",
   "lastOpenFiles": [
-    "all/MCP/Java开发DBA.md",
+    "daily-notes/出站智能体合集/流程.canvas",
+    "daily-notes/2025-12-30.md",
+    "daily-notes/2026-03-20.md",
+    "Pasted image 20260116110937.png",
+    "notes/www.baidu.com.md",
+    "notes/().md",
     "all/个人项目/配置文件.md",
+    "all/MCP/Java开发DBA.md",
     "all/个人项目",
     "all/docker/docker部署mysql.md",
     "all/docker/docker部署nextChat.md",
@@ -225,9 +231,6 @@
     "daily-notes/facebook/主动发送消息.md",
     "daily-notes/facebook/webhook触发流程.md",
     "image",
-    "notes/www.baidu.com.md",
-    "daily-notes/2025-12-30.md",
-    "daily-notes/2026-03-20.md",
     "daily-notes/epc短连接/流程.md",
     "daily-notes/问题排查/com.atoto.info.pub.controller.deviceApp.voice.DeviceDriveChatAppController.queryDeviceConfig.md",
     "daily-notes/设备分享/设备分享流程.md",
@@ -244,13 +247,9 @@
     "all/常用工具/常用工具.md",
     "all/常用工具/idea.md",
     "all/常用工具/Navicat.md",
-    "all/常用命令/vim常用命令.md",
-    "all/常用命令/nginx.md",
-    "daily-notes/出站智能体合集/流程.canvas",
     "daily-notes/设备分享",
     "daily-notes/说明书文本动态向量化",
     "daily-notes/出站智能体合集/流程.png",
-    "Pasted image 20260116110937.png",
     "daily-notes/出站智能体合集",
     "notes/未命名.base",
     "未命名.canvas",
