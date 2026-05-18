@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0ddadd3cb18b8f5",
+        "id": "1c30d8ab5de70611",
         "type": "tabs",
         "children": [
           {
-            "id": "30f1dde6d28ae0c9",
+            "id": "6e3bfc2fb048fead",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "daily-notes/出站智能体合集/规则文件抽取的json.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": ".obsidian/graph.json",
+                "bFile": ".obsidian/graph.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "规则文件抽取的json"
+              "icon": "diff",
+              "title": "Diff: graph.json"
             }
           }
         ]
@@ -158,13 +157,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "all/个人项目/配置文件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "配置文件 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -207,15 +205,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30f1dde6d28ae0c9",
+  "active": "6e3bfc2fb048fead",
   "lastOpenFiles": [
+    "all/个人项目/配置文件.md",
+    "all/常用命令/vim常用命令.md",
+    "daily-notes/出站智能体合集/规则文件抽取的json.md",
     "daily-notes/出站智能体合集/流程.canvas",
     "daily-notes/2025-12-30.md",
     "daily-notes/2026-03-20.md",
     "Pasted image 20260116110937.png",
     "notes/www.baidu.com.md",
     "notes/().md",
-    "all/个人项目/配置文件.md",
     "all/MCP/Java开发DBA.md",
     "all/个人项目",
     "all/docker/docker部署mysql.md",
@@ -246,7 +246,6 @@
     "all/常用工具/Obsidian.md",
     "all/常用工具/常用工具.md",
     "all/常用工具/idea.md",
-    "all/常用工具/Navicat.md",
     "daily-notes/设备分享",
     "daily-notes/说明书文本动态向量化",
     "daily-notes/出站智能体合集/流程.png",
