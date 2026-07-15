@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "命令",
+  "search": "nginx",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.7892709700921423,
+  "scale": 1.0121912046049757,
   "close": false
 }

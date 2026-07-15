@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1c30d8ab5de70611",
+        "id": "e33f090fce3acef2",
         "type": "tabs",
         "children": [
           {
-            "id": "6e3bfc2fb048fead",
+            "id": "d0220a6cd27e14cc",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/graph.json",
-                "bFile": ".obsidian/graph.json",
+                "aFile": "all/个人项目/配置文件.md",
+                "bFile": "all/个人项目/配置文件.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: graph.json"
+              "title": "Diff: 配置文件"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 295.5
   },
   "right": {
     "id": "e418e5e801b8e572",
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,26 +202,41 @@
       "command-palette:打开命令面板": false,
       "audio-recorder:开始/结束录音": false,
       "random-note:开始漫游笔记": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6e3bfc2fb048fead",
+  "active": "d0220a6cd27e14cc",
   "lastOpenFiles": [
+    "work-note/2026-07-15.md",
+    "work-note/2026-07-14.md",
+    "work-note/2026-07-13.md",
+    "all/docker/docker部署nginx.md",
+    "all/docker/docker部署nextChat.md",
+    "all/常用命令/nginx.md",
+    "all/docker/docker部署jenkins.md",
+    "work-note/主计划-子计划-评审工作项-WBS工作项.canvas",
     "all/个人项目/配置文件.md",
+    "all/docker/docker部署nacos.md",
+    "work-note/样机预算.md",
+    "work-note/PCM推送RFQ到Trinity.md",
+    "daily-notes/说明书文本动态向量化/横向对比（综合推荐阿里云百炼）.md",
+    "daily-notes/说明书文本动态向量化/模型调研.md",
+    "daily-notes/说明书文本动态向量化/测试返回的markdown.md",
+    "work-note/熟悉trinity中RFQ项目推送.md",
+    "daily-notes/出站智能体合集/流程.canvas",
+    "daily-notes/2026-03-20.md",
+    "work-note",
+    "daily-notes/2025-12-30.md",
+    "README.md",
     "all/常用命令/vim常用命令.md",
     "daily-notes/出站智能体合集/规则文件抽取的json.md",
-    "daily-notes/出站智能体合集/流程.canvas",
-    "daily-notes/2025-12-30.md",
-    "daily-notes/2026-03-20.md",
     "Pasted image 20260116110937.png",
     "notes/www.baidu.com.md",
     "notes/().md",
     "all/MCP/Java开发DBA.md",
     "all/个人项目",
     "all/docker/docker部署mysql.md",
-    "all/docker/docker部署nextChat.md",
-    "all/docker/docker部署nginx.md",
-    "all/docker/docker部署nacos.md",
     "daily-notes/facebook/image/Snipaste_2026-04-10_10-55-23.png",
     "daily-notes/facebook/image/image_927512129023007.png",
     "daily-notes/facebook/image/image_811027844547016.png",
@@ -229,28 +244,15 @@
     "daily-notes/facebook/image/image_069155578670065.png",
     "daily-notes/facebook/账号之间的关联.md",
     "daily-notes/facebook/主动发送消息.md",
-    "daily-notes/facebook/webhook触发流程.md",
     "image",
-    "daily-notes/epc短连接/流程.md",
-    "daily-notes/问题排查/com.atoto.info.pub.controller.deviceApp.voice.DeviceDriveChatAppController.queryDeviceConfig.md",
-    "daily-notes/设备分享/设备分享流程.md",
     "daily-notes/facebook/image",
-    "daily-notes/问题排查/步骤.md",
     "daily-notes/facebook",
     "daily-notes/问题排查",
-    "daily-notes/说明书文本动态向量化/demo.md",
     "daily-notes/epc短连接",
-    "all/docker/docker部署jenkins.md",
-    "all/常用命令/Linux.md",
-    "all/常用命令/expect脚本用法.md",
-    "all/常用工具/Obsidian.md",
-    "all/常用工具/常用工具.md",
-    "all/常用工具/idea.md",
     "daily-notes/设备分享",
     "daily-notes/说明书文本动态向量化",
     "daily-notes/出站智能体合集/流程.png",
     "daily-notes/出站智能体合集",
-    "notes/未命名.base",
     "未命名.canvas",
     "32802b40cd4143c2be59074cc0692916_0_visibleWatermark[1].png"
   ]

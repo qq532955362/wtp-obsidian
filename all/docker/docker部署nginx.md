@@ -73,6 +73,49 @@ server {
 }
 ```
 
+`测试的文件`
+```conf
+server {
+    listen 80;
+    server_name localhost;
+    # HTTP 重定向到 HTTPS
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name localhost;
+    ssl_certificate     /etc/nginx/certs/wtp.wang.pem;
+    ssl_certificate_key /etc/nginx/certs/wtp.wang.key;
+    ssl_protocols       TLSv1.2 TLSv1.3;
+    ssl_ciphers         HIGH:!aNULL:!MD5;
+    
+    location / {
+        proxy_pass http://wtp-personal:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+    
+    location /jenkins/ {
+        proxy_pass http://jenkins:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+    
+    
+	
+    # 示例: 反向代理后台应用
+    # location /api/ {
+    #     proxy_pass http://backend:8080;
+    # }
+}
+```
+
+
 ##### 5 编写docker-compose文件
 
 `docker-compose.yml`
@@ -83,6 +126,8 @@ server {
 version: '3.8'
 services:
   nginx:
+	networks:
+	  - nginx-network
     image: nginx:latest
     container_name: nginx-ssl
     ports:
@@ -97,7 +142,10 @@ services:
 networks:
   ## 定义的网络的名字
   nginx-network:
-   name: nginx-network
+    name: nginx-network
+	## 如果外部已经创建了则使用这个
+    external: true
+```
         
 ```
 这里的目录映射是为了更好的移植性

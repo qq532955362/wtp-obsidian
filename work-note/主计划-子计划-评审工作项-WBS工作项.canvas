@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"d14921d2c6ff8826","x":-240,"y":-240,"width":220,"height":60,"type":"text","text":"主计划（项目工作项）"},
+		{"id":"861198b28ca06993","type":"text","text":"节点","x":-240,"y":-120,"width":220,"height":60}
+	],
+	"edges":[]
+}
